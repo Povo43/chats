@@ -3,8 +3,8 @@
 .catchcopy{
 	font-size: 4vh;
     margin-top: 0;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     text-align: center;
     background: rgba(255, 255, 255, 0.699);
 }
@@ -70,33 +70,6 @@ button{
   .news .item a:hover .title{
     color: #ffa07a;
   }
-/*特集*/
-/* PC　3カラム */
-.topic{
-  background-color: #ffd6d6;
-  margin: 10px;
-  margin-top: 0px;
-}
-.topic-items{
-	display: flex;
-	flex-wrap: wrap;
-	margin: calc(-30px / 2);
-	padding: 30px;
-}
-.topick-item {
-	width: calc(100% / 3 - 30px);
-	margin: calc(30px / 2);
-	font-size: 2vw;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-@media screen and (max-width: 1000px){
-  .topick-item{
-    width: calc(100%/2 - 30px);
-  }
-}
 
 @media screen and (max-width: 715px){
     .news .item .date{
@@ -104,8 +77,5 @@ button{
     }
     .news .item .title{
       margin-top: 10px;
-    }
-    .topick-item{
-      width: calc(100%);
     }
 }

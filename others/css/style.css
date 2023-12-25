@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "zenkurenaido";
+    src: url("../../../ZenKurenaido.ttf") format("truetype");
+}
+
+html{
+    font-family: "zenkurenaido",serif;
+}
+
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    align-items: center;
+    position: 0;
+}
+
+.header_link{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header_button{
+    background: #c26552;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    height: 4vh;
+    padding: 0.8vh 2vh;
+    outline:invert;
+    box-shadow: 2px 2px 0.5px 0 rgba(0,0,0, .5);
+}
+
+.logo{
+    height: 3vh;
+}
+
+h2{
+    padding-top: 20px;
+    text-align: center;
+    margin-block-end: 0;
+}
+
+/*フッター*/
+footer{
+    background-color: goldenrod;
+    text-align: center;
+    color: #000;
+}
+
+
+/*全般設定*/
+
+body{
+    margin: 0;
+    background-color: wheat;
+}
+
+
